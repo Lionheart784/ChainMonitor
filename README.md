@@ -39,3 +39,24 @@ python monitor.py
 - 从主网 Uniswap V2 USDC/WETH 池抓取最近一段 Swap 记录
 - 根据简单规则计算风险等级 0~3
 - 当风险等级变化时，调用 `RiskMonitor.updateRisk` 在测试网更新风险状态
+
+
+# === 区块链节点配置 ===
+# Infura (推荐)
+ETH_RPC_URL=
+
+
+# 测试网配置
+SEPOLIA_RPC_URL=
+
+
+# === API Keys ===
+ETHERSCAN_API_KEY=
+
+
+# === 钱包配置 (可选，用于发送交易) ===
+PRIVATE_KEY=
+CONTRACT_ADDRESS=
+# === 其他服务 ===
+# The Graph (可选)
+THE_GRAPH_API_KEY=your-graph-api-key
