@@ -1,6 +1,10 @@
 {
   "name": "defi-market-monitor",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
