@@ -1,0 +1,20 @@
+[
+  {
+    "label": "UNISWAP_USDC_WETH",
+    "type": "dex_pool",
+    "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+    "description": "Uniswap V2 USDC/WETH pool on Ethereum mainnet"
+  },
+  {
+    "label": "WHALE_1",
+    "type": "whale",
+    "address": "0xYourWhaleAddressHere",
+    "description": "Example whale wallet to be monitored"
+  },
+  {
+    "label": "BINANCE_HOT_WALLET",
+    "type": "exchange",
+    "address": "0xYourCexHotWalletHere",
+    "description": "Example exchange hot wallet on Ethereum"
+  }
+]
